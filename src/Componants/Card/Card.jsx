@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './card.css'
-export default function Card(projectInfo,fullData) {
+export default function Card(projectInfo) {
  const {projectsCard}=projectInfo.projectInfo
 
   return (
@@ -16,7 +16,9 @@ export default function Card(projectInfo,fullData) {
                     <img src={project.img} alt="projectImage" />
                 </figure>
                 <div className="article-body">
-                    <a href={project.url}>{project.title}</a>
+                    <a href={project.url}>{project.title}</a><br/>
+                    {project.LiveDemo?<><a href={project.LiveDemo}>Go Love</a></>:""}
+
                     <p className='text-white-50'>
                         {project.discription}
                     </p>

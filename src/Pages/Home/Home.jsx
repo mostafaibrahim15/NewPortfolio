@@ -1,4 +1,3 @@
-import React from 'react'
 import './home.css'
 import moLogo from '../../assets/img/WhatsApp Image 2025-02-21 at 19.36.58_58f58688.jpg';
 import Mission from '../../Componants/Mission/Mission';
@@ -34,7 +33,7 @@ export default function Home() {
                I focus on building seamless user experiences with React, JavaScript, and modern web technologies.
                 Whether it's turning complex requirements into sleek interfaces or optimizing code for better performance,
                I take pride in delivering high-quality, maintainable code</p>
-              <a href='./Letter LCAIG31263.pdf' className='CV' download>Hire Me</a>
+              <a href='./Moustafa.pdf' className='CV' download>Hire Me</a>
           </div>
         </div>
       </motion.div>
